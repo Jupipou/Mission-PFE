@@ -74,6 +74,20 @@
   ul {
     list-style-type: none;
   }
+
+  #copy {
+      width:90%;
+      height:400px;
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+  }
+
+  #field {
+      margin-top: 30px;
+      margin-bottom: 25px;
+      text-decoration: underline;
+  }
     </style>
 </head>
 <body>
@@ -94,14 +108,34 @@
     <p>You can use <a href="https://www.canva.com/design/DAErmbyMs4E/share/preview?token=O1nEcmG8FU1JzdaB4A0DLg&role=EDITOR&utm_content=DAErmbyMs4E&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank">
         this template</a> and modify : name and adress of the company + objet (title of stage offer).</p>
     </p>
+    <p id="field">Here is the text if you need to fill it on indeed or linkedin directly :</p>
     </div>
 
-    <input type="button" id="love" onClick=myFunction() value="Support ?">
+
+    <textarea id="copy" name="textBox1" cols="40" rows="5" >Madame, Monsieur,
+
+Actuellement en cinquième et dernière année d'études en ingénierie des réseaux informatiques à l'Institut National des Sciences Appliquées et de Technologie (INSAT), je recherche un stage à partir de février 2022. Ce stage a une durée minimale de 4 mois et peut aller jusqu'à 6 mois. Cependant, je peux commencer à travailler à distance avant cette date à votre convenance.
+
+J'ai eu la chance de découvrir l'opportunité que vous proposez via indeed.com. Votre offre a attiré mon attention car les exigences de ce poste correspondent parfaitement à mes compétences et objectifs. Faire partie de vos équipes me permettra de travailler assidûment et de compléter ma formation par les connaissances qui me seront transmises lors de ce stage.
+        
+Passionné par le développement full-stack depuis de nombreuses années et fortement intéressé par DevOps depuis plusieurs mois, j'essaie constamment d'améliorer mes connaissances. Je ne me lasse jamais de travailler et j'aime m'investir dans de nouveaux projets. Je considère tout obstacle que je rencontre comme une opportunité d'apprendre et d'enrichir mes compétences.
+        
+Flexible, organisé, parlant couramment le français et l'anglais et ayant un bon esprit d'équipe, je serai à même de répondre à vos attentes et je suis motivé à travailler efficacement à vos côtés afin de mener à bien les projets qui me seront confiés.
+        
+Dans l'attente d'une réponse de votre part, n'hésitez pas à me contacter pour toute information complémentaire. Je vous remercie pour votre temps et votre considération.
+
+Je vous prie de bien vouloir recevoir mes plus respectueuses salutations.
+
+Oussema MILED
+</textarea>
+
+<input type="button" id="love" onClick=myFunction() value="Support ?">
 
 </body>
 <script>
     function myFunction() {
         alert("Always remember you're great baby and you'll always get the best option because God is with you ❤");
     }
+    
 </script>
 </html>
